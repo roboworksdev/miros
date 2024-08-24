@@ -1,0 +1,9 @@
+Package: miros
+Version: 1.0
+Architecture: amd64
+Essential: no
+Priority: optional
+Depends: tmux, docker-ce, docker-ce-cli, containerd.io, docker-buildx-plugin, docker-compose-plugin
+Maintainer: Roboworks
+Description: Miros, ROS programming assistant
+

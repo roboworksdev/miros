@@ -1,0 +1,9 @@
+[Unit]
+Description=Docker Launcher
+
+[Service]
+Type=idle
+ExecStart=sudo systemctl --user -M user-name@ start docker-desktop
+
+[Install]
+WantedBy=multi-user.target
