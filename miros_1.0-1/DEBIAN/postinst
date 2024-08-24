@@ -1,3 +1,1 @@
-sudo apt-get install /usr/share/applications/miros/docker-desktop-amd64.deb
-rm /usr/share/applications/miros/docker-desktop-amd64.deb
 sudo systemctl enable docker-startup.service
