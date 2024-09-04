@@ -1,1 +1,3 @@
 sudo systemctl enable docker-startup.service
+ln -s  /usr/bin/miros/miroslinuxamd64 /usr/bin/miros/miros
+ln -s /usr/bin/miros/miros.desktop /usr/share/applications/miros.desktop

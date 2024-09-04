@@ -2,9 +2,9 @@
 Version=1.0
 Name=MiROS
 Comment=MiROS: make ROS programming easy. Build for Orin boards.
-Exec=/usr/share/applications/miros/miroslinuxamd64
-Path=/usr/share/applications/miros
-Icon=/usr/share/applications/miros/miros_icon.png
+Exec=/usr/bin/miros/miroslinuxamd64
+Path=/usr/bin/miros
+Icon=/usr/bin/miros/miros_icon.png
 Terminal=false
 Type=Application
 Categories=Utility;Development;
