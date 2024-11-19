@@ -1,0 +1,9 @@
+[Unit]
+Description=Starts 3 Novnc servers for use with miros
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/miros_novnc_startup.sh
+
+[Install]
+WantedBy=default.target
