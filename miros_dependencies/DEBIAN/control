@@ -1,6 +1,6 @@
 Package: miros-dependencies
 Version: 1.0
-Architecture: amd64
+Architecture: all
 Essential: no
 Priority: optional
 Depends: tmux, novnc, x11vnc, xvfb
