@@ -1,0 +1,2 @@
+sudo systemctl enable miros-proxy-startup.service
+chmod +x /usr/bin/miros/miros_ssh_proxy

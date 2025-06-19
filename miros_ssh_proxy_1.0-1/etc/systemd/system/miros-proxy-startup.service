@@ -1,0 +1,9 @@
+[Unit]
+Description=Runs Miros ssh proxy on startup
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/miros/miros_ssh_proxy
+
+[Install]
+WantedBy=multi-user.target
