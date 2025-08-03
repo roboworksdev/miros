@@ -1,0 +1,8 @@
+Package: miros
+Version: 1.0
+Architecture: amd64
+Essential: no
+Priority: optional
+Maintainer: Roboworks
+Description: SSH proxy tool for MiROS website, found at https://miros.web.app
+
